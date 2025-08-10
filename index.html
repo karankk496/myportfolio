@@ -1,0 +1,562 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Karan Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/icomoon.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="sass/style.scss">
+      <script src="js/modernizr-2.6.2.min.js"></script>
+      <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+      
+         <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
+         <script type="module">
+           import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js'
+       
+           // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+           import { getAnalytics } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js'
+       
+           // Add Firebase products that you want to use
+           import { getAuth } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js'
+           import { getFirestore } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js'
+         </script>
+       
+   </head>
+   <body>
+      <div class="fh5co-loader"></div>
+      <div id="page">
+         <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+         style="background-image:url(images/cover.png)" data-stellar-background-ratio="0.9" background: rgb(0
+         191 255 90%) ;>
+         <div class="overlay">
+            <div class="container">
+               <div class="col-md-8 col-md-offset-2 text-center">
+                  <div class="display-t js-fullheight">
+                     <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn" style="margin-top: 2.9cm;">
+                        <div class="profile-thumb" style="background: url(images/profile.jpg);"></div>
+                        <h1><span>Karan Kumar</span></h1>
+                        <h3>
+                           <span>Software Developer & Enthusiastic Learner </span>
+                           <div>
+                           </div>
+                        </h3>
+                        <h4>
+                           <ul class="fh5co-social-icons">
+                              <li><a href="https://github.com/karankr2003"><i class="icon-github"></i></a>
+                              </li>
+                              <li><a href="https://www.linkedin.com/in/karankumar496/"><i
+                                 class="icon-linkedin2"></i></a></li>
+                           </ul>
+                        </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </header>
+         <div id="fh5co-about" class="animate-box">
+            <div class="container">
+               <!--  <div class="row">
+                   <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                     <h2>Who I Am?</h2>
+                  </div> 
+               </div> -->
+               <div class="row"> 
+                  <div class="col-md-8">
+                     <h2>Hello There :) 🖐️</h2>
+                     <h3>I'm Karan &#128578;</h3>
+                     <p>
+                        I'm a Software Engineer with a Bachelor of Engineering in Artificial Intelligence and Machine Learning, currently working at NUO Financial Technologies Private Limited, a company at the forefront of FinTech innovation. I specialize in building smart, scalable full-stack solutions - combining intuitive front-end experiences with robust back-end systems. My tech stack includes Python, Java, JavaScript, SQL, Oracle PL/SQL, and React.js, along with hands-on experience in frameworks like Next.js, Spring Boot, Flask, Pandas, and TensorFlow. Passionate about AI/ML and financial technology, I thrive on solving real-world problems through intelligent, user-focused applications.
+                     </p>
+                     <div class="social-and-resume-links">
+                        <ul class="fh5co-social-icons">
+                           <li><a href="https://github.com/karankr2003"><i class="icon-github"></i></a></li>
+                           <li><a href="https://www.linkedin.com/in/karankumar496/"><i class="icon-linkedin2"></i></a></li>
+                        </ul>
+                        <div class="section-link">
+                           <a href="https://www.dropbox.com/scl/fi/hxiugspzbm95gkhzju1p4/Associate_software_Engineer_Karan_Resume.pdf?rlkey=wdzhsw7glgbwhs9srud14n3d7&st=msre9wqb&dl=0"
+                              class="link-btn">My Resume</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12 col-md-offset-0">
+               <ul class="timeline">
+                  <li class="timeline-heading text-center animate-box">
+                     <div>
+                        <h3>Work Experience</h3>
+                     </div>
+                  </li>
+                  <li class="animate-box timeline-unverted">
+                     <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                     <div class="timeline-panel">
+                        <div class="timeline-heading">
+                           <h3 class="timeline-title">Associate Software Engineer</h3>
+                           <span class="company">NUO Financial Technologies Private Limited</span>
+                           <span class="location">Bangalore, Karnataka</span>
+                           <span class="company">Jan 2025 - Present</span>
+                        </div>
+                        <div class="timeline-body professional-panel">
+                           <div class="job-meta"><span class="meta-label">Role:</span> Full-Stack Developer</div>
+                           <div class="job-meta"><span class="meta-label">Technologies:</span> Next.js, React.js, TypeScript, PostgreSQL</div>
+                           <ul>
+                              <li>Developing PredixArena, a forecasting and prediction platform with a focus on data-driven decision-making.</li>
+                              <li>Engineered a scalable backend using Next.js and PostgreSQL, optimizing API performance and database interactions.</li>
+                              <li>Built an interactive frontend with React.js and TypeScript, ensuring a seamless and type-safe user experience.</li>
+                              <li>Enhanced RESTful API efficiency, reducing response times and improving data exchange.</li>
+                              <li>Focused on security, performance, and scalability to support real-time interactions and dynamic user engagement.</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="animate-box timeline-inverted">
+                     <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                     <div class="timeline-panel">
+                        <div class="timeline-heading">
+                           <h3 class="timeline-title">Software Engineer Trainee</h3>
+                           <span class="company">NUO Financial Technologies Private Limited</span>
+                           <span class="location">Bangalore, Karnataka</span>
+                           <span class="company">July 2024 - Dec 2024</span>
+                        </div>
+                        <div class="timeline-body professional-panel">
+                           <div class="job-meta"><span class="meta-label">Role:</span> Developer</div>
+                           <div class="job-meta"><span class="meta-label">Technologies:</span> Java, Spring Framework, RESTful APIs, MySQL</div>
+                           <ul>
+                              <li>Contributed to MifosX, an open-source platform for managing financial services in microfinance institutions.</li>
+                              <li>Optimized database queries, leading to a 20% reduction in response time and better system performance.</li>
+                              <li>Addressed and fixed 30% of high-priority bugs, improving platform reliability and reducing errors.</li>
+                              <li>Improved data exchange by refining RESTful API integrations, leading to a 25% boost in communication efficiency.</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="timeline-heading text-center animate-box">
+                     <div>
+                        <h3>Education</h3>
+                     </div>
+                  </li>
+                  <li class="animate-box timeline-unverted">
+                     <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                     <div class="timeline-panel">
+                        <div class="timeline-heading">
+                           <h3 class="timeline-title">Graduation</h3>
+                           <h4>Bachelor of Engineering</h4>
+                           <h4>Major in<strong> Artificial Intelligence and Machine Learning</strong></h4>
+                           <span class="company">Visvesvaraya Technological University, Belagavi, Karnataka 2020 - 2024</span>
+                        </div>
+                        <div class="timeline-body">
+                        </div>
+                     </div>
+                  </li>
+                  <li class="timeline-inverted animate-box">
+                     <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                     <div class="timeline-panel">
+                        <div class="timeline-heading">
+                           <h3 class="timeline-title">12th</h3>
+                           <h4>Science (PCM)</h4>
+                           <span class="company">Vivekanand Vision Ideal Public School, 2018 - 2020</span>
+                        </div>
+                        <div class="timeline-body">
+                        </div>
+                     </div>
+                  </li>
+                  <li class="animate-box timeline-unverted">
+                     <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                     <div class="timeline-panel">
+                        <div class="timeline-heading">
+                           <h3 class="timeline-title">10th</h3>
+                           <span class="company">DAV Public School, 2017- 2018</span>
+                        </div>
+                        <div class="timeline-body">
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- ------------------------------skill section -------------------->
+      <section>
+         <div id="fh5co-skills" class="animate-box">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                     <h2>Skills - Core Competencies</h2>
+                  </div>
+               </div>
+               <div class="row">
+                  <section id="skills" class="container inner-container">
+                     <div class="skills-wrapper">
+                        <div class="skill-item">
+                           <h3 class="skill-header">Programming Languages</h3>
+                           <div class="tags">
+                              <div class="tag">Python</div>
+                              <div class="tag">Java</div>
+                              <div class="tag">JavaScript</div>
+                              <div class="tag">Next.js</div>
+                              <div class="tag">Oracle PL/SQL</div>
+                              <div class="tag">React.js</div>
+                              <div class="tag">HTML</div>
+                              <div class="tag">CSS</div>
+                           </div>
+                        </div>
+                        <div class="skill-item">
+                           <h3 class="skill-header">Machine Learning</h3>
+                           <div class="tags">
+                              <div class="tag">Supervised Learning</div>
+                              <div class="tag">Deep Learning</div>
+                              <div class="tag">Unsupervised Learning</div>
+                              <div class="tag">Reinforcement Learning</div>
+                           </div>
+                        </div>
+                        <div class="skill-item">
+                           <h3 class="skill-header">Version Control & Build Tools</h3>
+                           <div class="tags">
+                              <div class="tag">Git</div>
+                              <div class="tag">NPM</div>
+                              <div class="tag">Yarn</div>
+                              <div class="tag">Maven</div>
+                              <div class="tag">Gradle</div>
+                           </div>
+                        </div>
+                        <div class="skill-item">
+                           <h3 class="skill-header">Developer Tools</h3>
+                           <div class="tags">
+                              <div class="tag">Postman</div>
+                              <div class="tag">Eclipse</div>
+                              <div class="tag">Android Studio</div>
+                              <div class="tag">Oracle Apex</div>
+                              <div class="tag">VS Code</div>
+                              <div class="tag">UiPath</div>
+                              <div class="tag">Oracle SQL Developer</div>
+                              <div class="tag">SpringBoot Tool suite</div>
+                           </div>
+                        </div>
+                        <div class="skill-item">
+                           <h3 class="skill-header">Tools & Frameworks</h3>
+                           <div class="tags">
+                              <div class="tag">Spring Boot</div>
+                              <div class="tag">TensorFlow</div>
+                              <div class="tag">Scikit-learn</div>
+                              <div class="tag">Pandas</div>
+                              <div class="tag">Scipy</div>
+                              <div class="tag">NumPy</div>
+                              <div class="tag">Google Colab</div>
+                           </div>
+                        </div>
+                        <div class="skill-item">
+                           <h3 class="skill-header">Database Management</h3>
+                           <div class="tags">
+                              <div class="tag">Oracle</div>
+                              <div class="tag">PostgreSQL</div>
+                              <div class="tag">MySQL</div>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ------------------------------projects sections -------------------->
+      <section>
+         <div id="fh5co-work" class="fh5co-bg-dark" style="
+            padding-top: 15px;">
+         <div class="container">
+            <div class="row animate-box">
+               <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                  <h2>Projects</h2>
+                  <h4>As a Software Engineer with a background in IT, I have developed data-driven solutions, web applications, systems, and machine learning models during my course and  Professional career. Here are a few of them:</h4>
+               </div>
+            </div>
+            <section id="websites" class="container">
+               <h2 class="subsection-title"></h2>
+               <div class="main-text project-scroll">
+                  <div class="project">
+                     <div class="project-image">
+                        <img src="./images/project1.jpg" width="720" height="340" alt="User Management System">
+                     </div>
+                     <div class="project-text">
+                        <h3 class="project-title">User Management System</h3>
+                        <ul>
+                           <li>Developed a comprehensive user management system with features for adding, editing, and deleting user details.</li>
+                           <li>Implemented robust form validation and error handling to ensure data integrity and accuracy, while optimizing the process to increase performance by 25%.</li>
+                           <li>Fixed existing issues in the application, including making the Add User button functional and implementing form validation to prevent empty or invalid submissions.</li>
+                           <li>Ensured form fields reset after successful user submission to enhance user experience and added delete functionality with a confirmation dialog to prevent accidental deletions.</li>
+                        </ul>
+                        <ul class="project-tags">
+                           <li>HTML</li>
+                           <li>CSS</li>
+                           <li>JavaScript</li>
+                           <li>NodeJs</li>
+                           <li>React</li>
+                           <li>APIs</li>
+                        </ul>
+                        <div class="project-links">
+                           <a href="https://github.com/karankr2003/frontend_task" target="_blank"
+                              rel="noopener">Source Code</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="project">
+                     <div class="project-image">
+                        <img src="./images/project2.png" width="720" height="340" alt="Creative Branding">
+                     </div>
+                     <div class="project-text">
+                        <h3 class="project-title">SQLAlchemyAI- SQL Code Generator</h3>
+                        <ul>
+                           <li>SQLAlchemyAI is a Python and Django-based web application that converts natural language inputs into SQL queries using AI.</li>
+                           <li>By leveraging advanced natural language processing (NLP), it allows users to interact with their databases effortlessly, simplifying complex queries and routine operations.</li>
+                           <li>This project enhances productivity and accessibility, making database management intuitive and efficient.</li>
+                           <li>It Generates exact SQL queries from the database, ensuring precise and accurate results.</li>
+                        </ul>
+                        <ul class="project-tags">
+                           <li>Python</li>
+                           <li>AI</li>
+                           <li>HTML</li>
+                           <li>Django</li>
+                           <li>CSS</li>
+                           <li>JavaScript</li>
+                           <li>MySQL</li>
+                        </ul>
+                        <div class="project-links">
+                           <a href="https://github.com/karankr2003/SQL-Code-Generator-from-Database-using-AI"
+                              target="_blank" rel="noopener">Source Code</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="project">
+                     <div class="project-image">
+                        <img src="./images/project3.webp" width="720" height="340" alt="Illustrations Collection">
+                     </div>
+                     <div class="project-text">
+                        <h3 class="project-title">Banking App</h3>
+                        <ul>
+                           <li>Developed a banking app for Android to enhance financial services and user experience.</li>
+                           <li>Implemented MVC approach with proper documentation and error handling.</li>
+                           <li>Features include login, profile creation, dashboard, account management, transactions, deposits, payments, and transfers.</li>
+                           <li>Emphasized program structure, memory efficiency, and practical Android development skills.</li>
+                        </ul>
+                        <ul class="project-tags">
+                           <li>Java</li>
+                           <li>XML</li>
+                           <li>SQLLite</li>
+                           <li>Android Studio</li>
+                        </ul>
+                        <div class="project-links">
+                           <a href="https://github.com/karankr2003/Banking-App" target="_blank"
+                              rel="noopener">Source Code</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="project">
+                     <div class="project-image">
+                        <img src="./images/project4.webp" width="720" height="340" alt="Medical Data Storage App Thumbnail">
+                     </div>
+                     <div class="project-text">
+                        <h3 class="project-title">Medical Data Storage App</h3>
+                        <ul>
+                           <li>Developed and implemented a medical store management application to streamline inventory and sales processes.</li>
+                           <li>Focused on optimizing data storage and retrieval processes, ensuring efficient access to critical healthcare information</li>
+                           <li>Successfully integrated key features to enhance the overall usability and performance of the application for healthcare professionals</li>
+                        </ul>
+                        <ul class="project-tags">
+                           <li>Java</li>
+                           <li>XML</li>
+                           <li>SQLLite</li>
+                           <li>Android Studio</li>
+                        </ul>
+                        <div class="project-links">
+                           <a href="https://github.com/karankr2003/Medical-Information-App" target="_blank"
+                              rel="noopener">Source Code</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="project">
+                  <div class="project-image">
+                     <img src="./images/project5.jpg" width="720" height="340" alt="UI/UX Design">
+                  </div>
+                  <div class="project-text">
+                     <h3 class="project-title">Plant Leave Detection</h3>
+                     <ul>
+                        <li>The project is implemented on Google Colaboratory, a cloud-based Jupyter notebook environment.</li>
+                        <li>It employs a Machine Learning algorithm called Convolutional Neural Network (CNN) algorithm to identify and classify different types of leaves based on their morphological features.</li>
+                        <li>The output of the project is a classification of the leaves in the given dataset.</li>
+                     </ul>
+                     <ul class="project-tags">
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>Google colab</li>
+                        <li>Computer Vision</li>
+                        <li>Dataset</li>
+                     </ul>
+                     <div class="project-links">
+                        <a href="https://github.com/karankr2003/Plant-Leaves-Detection" target="_blank"
+                           rel="noopener">Source Code</a>
+                     </div>
+                  </div>
+               </div>
+         </div>
+         </section>
+         <!------------------------Certification sections------------------------------------------->
+      </section>
+      <div id="fh5co-blog">
+         <div class="container">
+            <div class="row animate-box">
+               <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                  <h2>Certifications and Achievements</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="fh5co-blog animate-box">
+                     <a  class="blog-bg" style="background-image: url(images/certificate1.jpeg);"></a>
+                     <div class="blog-text">
+                        <span class="posted_on">Jan 9th 2023</span>
+                        <h3><a href="https://www.coursera.org/account/accomplishments/verify/S5YJXF7XRPR7">Migrating to the AWS Cloud</a></h3>
+                        <li><a href="https://www.coursera.org/account/accomplishments/verify/S5YJXF7XRPR7">Read More<i class="icon-arrow-right22"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="fh5co-blog animate-box">
+                     <a href="#" class="blog-bg" style="background-image: url(images/certificate51.jpg);"></a>
+                     <div class="blog-text">
+                        <span class="posted_on">January 16th, 2023</span>
+                        <h3><a href="https://www.coursera.org/account/accomplishments/verify/BQPT66G59LXF">Python for Data Science, AI & Development</a></h3>
+                        <li><a href="https://www.coursera.org/account/accomplishments/verify/BQPT66G59LXF">Read More<i class="icon-arrow-right22"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="fh5co-blog animate-box">
+                     <a href="#" class="blog-bg" style="background-image: url(images/certificate4.jpg);"></a>
+                     <div class="blog-text">
+                        <span class="posted_on">May 2023 - July 2023</span>
+                        <h3><a href="">Basic Certificate Course in Artificial Intelligence</a></h3>
+                        <li><a href="https://www.linkedin.com/posts/karankumar496_ai-artificialintelligence-nasscom-activity-7088077940957081600-vqvT?utm_source=share&utm_medium=member_desktop">Read More<i class="icon-arrow-right22"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="fh5co-blog animate-box">
+                     <a href="#" class="blog-bg" style="background-image: url(images/certificate2.jpg);"></a>
+                     <div class="blog-text">
+                        <span class="posted_on">December 17th, 2022</span>
+                        <h3><a href="">Programming with Java</a></h3>
+                        <!-- <li><a href="">Read More<i class="icon-arrow-right22"></i></a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="fh5co-blog animate-box">
+                     <a href="#" class="blog-bg" style="background-image: url(images/certificate7.jpg);"></a>
+                     <div class="blog-text">
+                        <span class="posted_on">December 17th, 2022</span>
+                        <h3><a href="">ServiceNow</a></h3>
+                        <!-- <li><a href="">Read More<i class="icon-arrow-right22"></i></a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="fh5co-blog animate-box">
+                     <a href="#" class="blog-bg" style="background-image: url(images/certificate6.jpg);"></a>
+                     <div class="blog-text">
+                        <span class="posted_on">December 7th, 2023</span>
+                        <h3><a href="">Machine Learning Specialist</a></h3>
+                        <!-- <li><a href="">Read More<i class="icon-arrow-right22"></i></a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="fh5co-blog animate-box">
+                     <a href="#" class="blog-bg" style="background-image: url(images/certificate8.png);"></a>
+                     <div class="blog-text">
+                        <span class="posted_on">November 11th, 2024</span>
+                        <h3><a href="https://www.linkedin.com/posts/karankumar496_aibuilderslab-hack2skill-googledevelopers-activity-7262816804505346048-YKfV?utm_source=share&utm_medium=member_desktop">Artificial Intelligence(Bootcamp)</a></h3>
+                        <li><a href="https://www.linkedin.com/posts/karankumar496_aibuilderslab-hack2skill-googledevelopers-activity-7262816804505346048-YKfV?utm_source=share&utm_medium=member_desktop">Read More<i class="icon-arrow-right22"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="fh5co-consult">
+         <div class="choose animate-box">
+             <h2>Get in Touch</h2>
+             <h3>Let's collaborate and innovate together :)</h3>
+             <h4>Open to collaboration on innovative projects or freelancing opportunities. Let's create something amazing together</h4>
+             <form id="contactForm" action="http://localhost:3000/submit-form" method="post">
+                 <div class="row form-group">
+                     <div class="col-md-10">
+                         <input type="text" id="fname" name="name" class="form-control" placeholder="Your Name">
+                     </div>
+                 </div>
+                 <div class="row form-group">
+                     <div class="col-md-10">
+                         <input type="text" id="email" name="email" class="form-control" placeholder="Your email address">
+                     </div>
+                 </div>
+                 <div class="row form-group">
+                     <div class="col-md-10">
+                         <input type="text" id="subject" name="subject" class="form-control" placeholder="Your subject of this message">
+                     </div>
+                 </div>
+                 <div class="row form-group">
+                     <div class="col-md-10">
+                         <textarea name="message" id="message" cols="25" rows="10" class="form-control" placeholder="Share your thoughts... I'd love to hear from you"></textarea>
+                     </div>
+                 </div>
+                 <div class="form-group">
+                     <input type="submit" value="Send Message" class="btn btn-primary">
+                 </div>
+             </form>
+             <div id="formMessage" style="display: none; margin-top: 20px; padding: 15px; background-color: #dff0d8; color: #3c763d; border: 1px solid #d6e9c6; border-radius: 5px; text-align: center;"></div>
+         </div>
+     </div>
+      <div id="fh5co-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h4 style=" color: #2a2929;">&copy; Designed & Built by Karan Kumar</h4>
+                  <ul class="fh5co-social-icons" >
+                     <li><a href="https://github.com/karankr2003"><i class="icon-github"></i></a>
+                     </li>
+                     <li><a href="https://www.linkedin.com/in/karankumar496/"><i
+                        class="icon-linkedin2"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="gototop js-top">
+         <a href="" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+      </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.stellar.min.js"></script>
+      <script src="js/jquery.easypiechart.min.js"></script>      
+      <script src="js/main.js"></script>
+   </body>
+</html>
